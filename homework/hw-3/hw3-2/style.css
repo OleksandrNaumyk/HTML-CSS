@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 50vh;
+}
+
+.main-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    background-color: pink;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    width: 75%;
+}
