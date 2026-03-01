@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 5vh;
+    background: #D9D9D9;
+}
+
+main {
+    display: flex;
+    height: 88vh;
+}
+
+.main-left {
+    display: flex;
+    width: 59vw;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    width: 41vw;
+}
+
+.sec-left {
+    width: 29vw;
+    background: #A4A4A4;
+}
+
+.sec-richt {
+    width: 30vw;
+    background: #C1C1C1;
+}
+
+.sec-up {
+    height: 43vh;
+    background: #7F7A7A;
+}
+
+.sec-down {
+    height: 45vh;
+    background: #6B6161;
+}
+
+footer {
+    height: 7vh;
+    background: #D9D9D9;
+}
