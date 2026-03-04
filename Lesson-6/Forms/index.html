@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form class="form-registration">
+    <label for="name">Введіть імя</label>
+    <input type="text" name="name" id="name" placeholder="Введіть імя" required><sup>*</sup>
+
+    <label for="email">Введіть пошту</label>
+    <input type="email" name="email" id="email" placeholder="Введіть пошту" required><sup>*</sup>
+
+    <label for="password">Введіть пароль</label>
+    <input type="password" name="password" id="password" placeholder="Введіть пароль" required><sup>*</sup>
+
+    <label for="age">Введіть вік</label>
+    <input type="number" name="age" id="age" min="18" max="100">
+
+    <input type="color">
+
+    <label>Стать</label>
+    <label><input type="radio" name="gender" value="male">Чоловіча</label>
+    <label><input type="radio" name="gender" value="female">Жіноча</label>
+
+    <label>
+        <input type="checkbox" name="newsletter"> Підписатися на новини
+    </label>
+
+    <label for="country">краіна</label>
+    <select id="country">
+        <option value="">Виберіть</option>
+        <option value="PR">Португалія</option>
+        <option value="UA">Украіна</option>
+        <option value="PL">Польша</option>
+
+    </select>
+
+    <label for="phone"></label>
+    <select name="phone" id="phone">
+        <optgroup label="Apple">
+            <option value="15">Iphone 15</option>
+            <option value="16">Iphone 16</option>
+            <option value="17">Iphone 17</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value="S5">Galaxy S5</option>
+            <option value="S6">Galaxy S6</option>
+            <option value="S7">Galaxy S7</option>
+        </optgroup>
+    </select>
+
+    <label for="comment"></label>
+    <textarea id="comment" rows="5" cols="30">
+
+    </textarea>
+
+    <div>
+        <input type="submit" value="Відправити">
+        <input type="reset" value="Скинути">
+    </div>
+</form>
+</body>
+</html>

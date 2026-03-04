@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        ul{
+            padding-inline-start: 10px;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        ul li::after{
+            content: "!!!!!";
+            color: red;
+        }
+        ul li::before{
+            display: inline-block;
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-image: url('src="https://img.icons8.com/ios/50/dog--v1.png" alt="dog--v1');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Adipisci alias earum est nulla.</li>
+        <li>At officiis quod tenetur voluptate?</li>
+        <li>Atque consequatur iure officiis sequi!</li>
+        <li>Atque dolores et nulla repellat!</li>
+        <li>Ab optio pariatur perspiciatis vel!</li>
+        <li>Amet consectetur deserunt labore nam!</li>
+        <li>Aperiam culpa numquam repellendus unde!</li>
+        <li>Atque consequatur magni porro quam.</li>
+        <li>Ex inventore neque ratione voluptates.</li>
+    </ul>
+</body>
+</html>
