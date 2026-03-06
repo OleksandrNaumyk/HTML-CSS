@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
+    color: lightslategray;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.cards {
+    padding: 9px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+}
+
+.card {
+    width: 245px;
+    height: 291px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 32px;
+    background: #FFF;
+    position: relative;
+}
+.highly-rated {
+    position: absolute;
+    top: -30px;
+}
