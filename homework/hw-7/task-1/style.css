@@ -69,6 +69,18 @@ body{
     border: 4px solid #554C4C;
     background: rgba(217, 217, 217, 0.30);
 }
+
+.card-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 319px;
+    height: 492px;
+    border: 4px solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+}
 .card h1{
     color: #000;
     font-family: Inter, sans-serif;
@@ -76,6 +88,21 @@ body{
     font-weight: 400;
 }
 .card p{
+    width: 211px;
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.card-2 h1{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.card-2 p{
     width: 211px;
     color: #000;
     text-align: center;
