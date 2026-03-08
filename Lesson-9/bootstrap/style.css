@@ -1,0 +1,11 @@
+.wrapper {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-success {
+    background: red;
+}
