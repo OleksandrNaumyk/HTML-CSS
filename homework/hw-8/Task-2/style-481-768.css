@@ -1,0 +1,16 @@
+@media screen and (min-width:481px) and (max-width:768px){
+
+    .main{
+        display: flex;
+        flex-flow: column wrap;
+        margin: 48px 24px;
+        gap: 40px;
+        width: 720px;
+        height: 556px;
+    }
+
+    .main div {
+        width: 348px;
+        height: 258px;
+    }
+}

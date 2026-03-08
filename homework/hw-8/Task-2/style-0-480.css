@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin: 32px 16px;
+        width: 343px;
+        height: 976px;
+        gap: 32px;
+
+    }
+
+    .main div {
+        width: 343px;
+        height: 220px;
+    }
+
+    .main div img {
+        width: 128px;
+        height: 128px;
+    }
+}
